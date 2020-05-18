@@ -7,7 +7,7 @@ VOLUME /ofbiz
 ADD . /ofbiz
 WORKDIR /ofbiz
 
-# Setup backend connection
+# Setup backend connection.
 # RUN cat deploy/entity/entityengine.xml > framework/entity/config/entityengine.xml
 
 EXPOSE 8443
