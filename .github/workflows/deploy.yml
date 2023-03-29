@@ -14,7 +14,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Publish to Github Packages Registry
-      uses: elgohr/Publish-Docker-Github-Action@master
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: kilpkonn/ofbiz/ofbiz
         registry: docker.pkg.github.com
